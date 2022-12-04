@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Test2(failed)">
+    <parameter name="port" value="4723"/>
+    <parameter name="platformVersion" value="7.1.2"/>
+    <parameter name="deviceName" value="Redmi 4a"/>
+    <classes>
+      <class name="driverMethods.ParallelExecution">
+        <methods>
+          <include name="api" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- driverMethods.ParallelExecution -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="2" parallel="tests" name="Test1(failed)">
+    <parameter name="port" value="4722"/>
+    <parameter name="platformVersion" value="12"/>
+    <parameter name="deviceName" value="moto g60"/>
+    <classes>
+      <class name="driverMethods.ParallelExecution">
+        <methods>
+          <include name="api" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- driverMethods.ParallelExecution -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

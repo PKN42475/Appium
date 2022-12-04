@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-25T16:56:20 IST" name="Default suite" finished-at="2022-11-25T16:56:40 IST" duration-ms="20364">
+    <groups>
+    </groups>
+    <test started-at="2022-11-25T16:56:20 IST" name="Default test" finished-at="2022-11-25T16:56:40 IST" duration-ms="20364">
+      <class name="driverMethods.LaunchApiDemosApp">
+        <test-method signature="launchApp()[pri:0, instance:driverMethods.LaunchApiDemosApp@742ff096]" started-at="2022-11-25T16:56:20 IST" name="launchApp" finished-at="2022-11-25T16:56:40 IST" duration-ms="20318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+      </class> <!-- driverMethods.LaunchApiDemosApp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
