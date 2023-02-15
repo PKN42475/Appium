@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[General Store verified]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-02-10T11:12:37 IST" name="Default suite" finished-at="2023-02-10T11:15:42 IST" duration-ms="185340">
+    <groups>
+    </groups>
+    <test started-at="2023-02-10T11:12:37 IST" name="Default test" finished-at="2023-02-10T11:15:42 IST" duration-ms="185340">
+      <class name="GeneralStores.PrintCountryNames">
+        <test-method is-config="true" signature="connectToDatabase()[pri:0, instance:GeneralStores.PrintCountryNames@45099dd3]" started-at="2023-02-10T11:12:37 IST" name="connectToDatabase" finished-at="2023-02-10T11:12:37 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectToDatabase -->
+        <test-method is-config="true" signature="startParallelExecution()[pri:0, instance:GeneralStores.PrintCountryNames@45099dd3]" started-at="2023-02-10T11:12:37 IST" name="startParallelExecution" finished-at="2023-02-10T11:12:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startParallelExecution -->
+        <test-method is-config="true" signature="connectToServer()[pri:0, instance:GeneralStores.PrintCountryNames@45099dd3]" started-at="2023-02-10T11:12:37 IST" name="connectToServer" finished-at="2023-02-10T11:12:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectToServer -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:GeneralStores.PrintCountryNames@45099dd3]" started-at="2023-02-10T11:12:37 IST" name="launchApplication" finished-at="2023-02-10T11:12:48 IST" duration-ms="11346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="countryNames()[pri:0, instance:GeneralStores.PrintCountryNames@45099dd3]" started-at="2023-02-10T11:12:48 IST" name="countryNames" finished-at="2023-02-10T11:15:42 IST" duration-ms="173578" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[General Store verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- countryNames -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:GeneralStores.PrintCountryNames@45099dd3]" started-at="2023-02-10T11:15:42 IST" name="closeApplication" finished-at="2023-02-10T11:15:42 IST" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="disconnectToServer()[pri:0, instance:GeneralStores.PrintCountryNames@45099dd3]" started-at="2023-02-10T11:15:42 IST" name="disconnectToServer" finished-at="2023-02-10T11:15:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disconnectToServer -->
+        <test-method is-config="true" signature="stopParallelExecution()[pri:0, instance:GeneralStores.PrintCountryNames@45099dd3]" started-at="2023-02-10T11:15:42 IST" name="stopParallelExecution" finished-at="2023-02-10T11:15:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopParallelExecution -->
+        <test-method is-config="true" signature="disconnectToDatabase()[pri:0, instance:GeneralStores.PrintCountryNames@45099dd3]" started-at="2023-02-10T11:15:43 IST" name="disconnectToDatabase" finished-at="2023-02-10T11:15:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disconnectToDatabase -->
+      </class> <!-- GeneralStores.PrintCountryNames -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
